@@ -1,0 +1,27 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+*.pyo
+db.sqlite3
+db.sqlite3-journal
+
+# Node / Vite
+node_modules/
+dist/
+Frontend/package-lock.json
+
+# Entorno
+.env
+Backend/.env
+
+# Estáticos generados (Django collectstatic y build de Vite)
+Backend/staticfiles/
+Backend/static_frontend/assets/
+Backend/static_frontend/index.html
+
+# Logs y editores
+*.log
+.vscode/
+.idea/
+.DS_Store
